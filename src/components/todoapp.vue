@@ -96,7 +96,7 @@
     <div>
       <!--計算未完成事項-->
       <span class="other"
-        ><b>還有{{ countToDo().length }}項未完成</b></span
+        ><b>還有{{ countToDo() }}項未完成</b></span
       >
       <!--點擊清除全部事項-->
       <button
